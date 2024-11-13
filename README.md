@@ -10,7 +10,6 @@
 
 The Crowdfunding.xlsx data was extracted and transformed into a DataFrame with two columns “category_id” and “category”. This was then exported into a CSV titled “category”. The same was done again by creating another DataFrame with the columns “subcategory_id” and “subcategory” which was exported into a CSV titled “subcategory”.
 
-
 **Create the Campaign DataFrame**: Patrick
 
 Using the Crowndfunding.xlsc data again, another DataFrame was created with the following columns:
@@ -31,15 +30,12 @@ Using the Crowndfunding.xlsc data again, another DataFrame was created with the 
 
 This DataFrame was exported into a CSV file titled “campaign”.
 
-
 **Create the Contacts DataFrame**: Natasha
 
 Using Python dictionary methods, the contacts.xlsx data was extracted and transformed into a DataFrame. Each row within the DataFrame was converted into a dictionary, splitting the name column into a "first_name" column and "last_name" column. The DataFrame was cleaned and exported into a CSV titled "contacts".
 
-
 **Create the Crowdfunding Database**: Patrick
 
 The four CSV files created were used to sketch an ERD of the tables. A table schema was created for each CSV file using the information from the ERD. A database was created using the table schema and each CSV file was imported into its corresponding SQL table and then verified the data. 
-
 
 **Credits:** All code written by Patrick Zhou and Natasha Elliott.
